@@ -76,6 +76,6 @@ app.get('/signupSubmit',function (req,res) {
 	})
 })
 
-app.listen(3000,function () {
-	console.log('Example app is listening at 3000')
+app.listen(app.get('port'),function () {
+	console.log('Example app is listening at 5000')
 })
